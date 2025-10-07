@@ -58,7 +58,7 @@ module.exports = {
   claimIntervalMinutes: 15,
   logLevel: 'info',
   
-  // Compute Budget Settings
+  // Compute Budget Settings 
   computeUnitPrice: 375000, // micro lamports per compute unit
   computeUnitLimit: 200000, // compute units
 };

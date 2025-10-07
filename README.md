@@ -1,4 +1,4 @@
-# Solana Claiming Bot
+# Addicted Claiming Bot
 
 A powerful and flexible Solana claiming bot for automated game rewards. This bot supports multiple accounts, automatic claiming intervals, and comprehensive error handling.
 
