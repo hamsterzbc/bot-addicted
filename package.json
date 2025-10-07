@@ -1,0 +1,48 @@
+{
+  "name": "solana-claiming-bot",
+  "version": "1.0.0",
+  "description": "A powerful and flexible Solana claiming bot for automated game rewards with multi-account support",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test-wallet": "node utils/test-wallet.js",
+    "check-balance": "node utils/check-balance.js",
+    "check-user-state": "node utils/check-user-state.js",
+    "switch-account": "node utils/switch-account.js",
+    "create-token-account": "node utils/create-token-account.js",
+    "initialize-user": "node utils/initialize-user.js",
+    "find-discriminator": "node utils/find-discriminator.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.87.6",
+    "@solana/spl-token": "^0.3.9",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": [
+    "solana",
+    "bot",
+    "claiming",
+    "game",
+    "automation",
+    "defi",
+    "crypto",
+    "blockchain",
+    "rewards",
+    "multi-account"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/solana-claiming-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/solana-claiming-bot/issues"
+  },
+  "homepage": "https://github.com/yourusername/solana-claiming-bot#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
